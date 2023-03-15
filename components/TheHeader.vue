@@ -24,53 +24,7 @@
         :class="navContentClassList"
         class="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
       >
-        <!--ul class="list-reset lg:flex justify-end flex-1 items-center">
-          <li class="mr-3">
-            <NuxtLink
-              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-              to="/equipe"
-              >EQUIPE</NuxtLink>
-          </li>
-          <li class="mr-3">
-            <NuxtLink
-              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-              to="/blog"
-              >BLOG</NuxtLink>
-          </li>
-          <li class="mr-3">
-            <NuxtLink
-              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-              to="/noticias"
-              >NOTÍCIAS</NuxtLink
-            >
-          </li>
-          <li class="mr-3">
-            <NuxtLink
-              class="inline-block py-2 px-4 font-bold text-black no-underline"
-              to="/login"
-              >ENTRAR</NuxtLink>
-          </li>
-        </ul-->
-        <!--div v-if="$auth.loggedIn">
-          {{ $auth.user.email }}
-          <v-btn text>Logout</v-btn>
         </div>
-        <div v-else>
-          <NuxtLink
-            :class="navActionClassList"
-            class="button mx-auto lg:mx-0 hover:underline bg-white text-gray-900 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75"
-            to="/login"
-          >ENTRAR
-          </NuxtLink-->
-        </div>
-
-          <!--NuxtLink
-            :class="navActionClassList"
-            class="button mx-auto lg:mx-0 hover:underline bg-white text-gray-900 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75"
-            to="/login"
-          >CRIAR CONTA
-          </NuxtLink-->
-
 
       </div>
     <!--</div>-->
