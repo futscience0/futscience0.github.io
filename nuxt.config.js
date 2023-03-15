@@ -10,6 +10,10 @@ export default {
   */
   target: 'static',
 
+  router: {
+    base: ''
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'FutScience - A ciência por trás do futebol.',
@@ -59,6 +63,9 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-139305425-1'
+    }],
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
