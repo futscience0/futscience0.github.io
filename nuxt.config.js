@@ -1,4 +1,15 @@
 export default {
+  /*
+  ** Nuxt rendering mode
+  ** See https://nuxtjs.org/api/configuration-mode
+  */
+  mode: 'universal',
+  /*
+  ** Nuxt target
+  ** See https://nuxtjs.org/api/configuration-target
+  */
+  target: 'server',
+  
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'FutScience - A ciência por trás do futebol.',
