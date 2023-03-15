@@ -75,7 +75,10 @@ export default {
     '@nuxtjs/sitemap',
     '@nuxtjs/markdownit'
   ],
-
+  sitemap: {
+    // options
+    hostname: 'https://futscience.com',
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
