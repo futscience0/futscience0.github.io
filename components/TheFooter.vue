@@ -6,6 +6,9 @@
           <logo2 />
         </div>
 
+        <!--
+
+
         <div class="flex-1">
           <p class="uppercase text-gray-500 md:mb-6">Links</p>
           <ul class="list-reset mb-6">
@@ -96,6 +99,8 @@
             </li>
           </ul>
         </div>
+
+        -->
       </div>
     </div>
 
